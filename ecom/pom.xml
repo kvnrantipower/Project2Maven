@@ -23,6 +23,7 @@
 	        <configuration>
 	          <suiteXmlFiles>
 	            <suiteXmlFile>testng.xml</suiteXmlFile>
+	            <suiteXmlFile>testngChrome.xml</suiteXmlFile>
 	          </suiteXmlFiles>
 	        </configuration>
      	</plugin>
