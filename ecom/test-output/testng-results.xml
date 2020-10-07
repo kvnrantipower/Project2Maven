@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="61444" started-at="2020-10-07T17:54:36 IST" finished-at="2020-10-07T17:55:37 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="61444" started-at="2020-10-07T17:54:36 IST" finished-at="2020-10-07T17:55:37 IST">
+      <class name="com.ecom.scripts.TC002">
+        <test-method status="PASS" signature="setProperty(java.lang.String)[pri:0, instance:com.ecom.scripts.TC002@4b1c1ea0]" name="setProperty" is-config="true" duration-ms="22679" started-at="2020-10-07T17:54:36 IST" finished-at="2020-10-07T17:54:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC002@4b1c1ea0]" name="befMethod" is-config="true" duration-ms="8679" started-at="2020-10-07T17:54:59 IST" finished-at="2020-10-07T17:55:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="Test3()[pri:0, instance:com.ecom.scripts.TC002@4b1c1ea0]" name="Test3" duration-ms="3509" started-at="2020-10-07T17:55:07 IST" finished-at="2020-10-07T17:55:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC002@4b1c1ea0]" name="aftMethod" is-config="true" duration-ms="675" started-at="2020-10-07T17:55:11 IST" finished-at="2020-10-07T17:55:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC002@4b1c1ea0]" name="befMethod" is-config="true" duration-ms="524" started-at="2020-10-07T17:55:11 IST" finished-at="2020-10-07T17:55:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="Test4()[pri:0, instance:com.ecom.scripts.TC002@4b1c1ea0]" name="Test4" duration-ms="3080" started-at="2020-10-07T17:55:12 IST" finished-at="2020-10-07T17:55:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC002@4b1c1ea0]" name="aftMethod" is-config="true" duration-ms="588" started-at="2020-10-07T17:55:15 IST" finished-at="2020-10-07T17:55:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC002@4b1c1ea0]" name="closeBrowsers" is-config="true" duration-ms="2364" started-at="2020-10-07T17:55:16 IST" finished-at="2020-10-07T17:55:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- com.ecom.scripts.TC002 -->
+      <class name="com.ecom.scripts.TC001">
+        <test-method status="PASS" signature="setProperty(java.lang.String)[pri:0, instance:com.ecom.scripts.TC001@17579e0f]" name="setProperty" is-config="true" duration-ms="4964" started-at="2020-10-07T17:55:18 IST" finished-at="2020-10-07T17:55:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC001@17579e0f]" name="befMethod" is-config="true" duration-ms="4075" started-at="2020-10-07T17:55:23 IST" finished-at="2020-10-07T17:55:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.ecom.scripts.TC001@17579e0f]" name="Test1" duration-ms="3200" started-at="2020-10-07T17:55:27 IST" finished-at="2020-10-07T17:55:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC001@17579e0f]" name="aftMethod" is-config="true" duration-ms="766" started-at="2020-10-07T17:55:30 IST" finished-at="2020-10-07T17:55:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC001@17579e0f]" name="befMethod" is-config="true" duration-ms="534" started-at="2020-10-07T17:55:31 IST" finished-at="2020-10-07T17:55:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:com.ecom.scripts.TC001@17579e0f]" name="Test2" duration-ms="3084" started-at="2020-10-07T17:55:32 IST" finished-at="2020-10-07T17:55:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC001@17579e0f]" name="aftMethod" is-config="true" duration-ms="581" started-at="2020-10-07T17:55:35 IST" finished-at="2020-10-07T17:55:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC001@17579e0f]" name="closeBrowsers" is-config="true" duration-ms="2055" started-at="2020-10-07T17:55:35 IST" finished-at="2020-10-07T17:55:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- com.ecom.scripts.TC001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
