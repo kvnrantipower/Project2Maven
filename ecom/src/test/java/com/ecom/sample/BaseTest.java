@@ -1,4 +1,4 @@
-package com.ecom.scripts;
+package com.ecom.sample;
 
 
 
@@ -40,7 +40,7 @@ public class BaseTest implements AutoConstants {
 			System.setProperty(EDGE_KEY, EDGE_PATH);
 			driver=new EdgeDriver();
 		}
-		else if(browser.equalsIgnoreCase("ie"))
+		else if(browser.equalsIgnoreCase("edge"))
 		{
 			System.setProperty(IE_KEY, IE_PATH);
 			driver=new InternetExplorerDriver();

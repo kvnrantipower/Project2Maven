@@ -3,27 +3,26 @@ package com.ecom.scripts;
 import org.openqa.selenium.By;
 import org.testng.annotations.*;
 
+import com.ecom.pages.HomePage;
+import com.ecom.pages.LoginPage;
+
+import junit.framework.Assert;
+
 public class TC001 extends BaseTest{
 	
-	@Test
-	public void Test1()
+	@Test(description="Verifying valid login")
+	public void validLogin()
 	{
-		driver.findElement(By.name("q")).sendKeys("Test1");
-		try 
-		{
-			Thread.sleep(3000);
-		}catch(InterruptedException e)
-		{}
+		LoginPage lp=new LoginPage(driver, webaction);
+		HomePage hp = lp.login(DEFAULT_USERNAME, DEFAULT_PASSWORD);
+		Assert.assertEquals(true, hp.verifyPresenseOfSignOut());
+		
 	}
 	
-	@Test(description="")
-	public void Test2()
+	@BeforeMethod(alwaysRun=true)
+	public void befMethod()
 	{
-		driver.findElement(By.name("q")).sendKeys("Test2");
-		try 
-		{
-			Thread.sleep(3000);
-		}catch(InterruptedException e)
-		{}
+		
 	}
+	
 }
