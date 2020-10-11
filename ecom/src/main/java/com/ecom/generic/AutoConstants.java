@@ -16,7 +16,7 @@ public interface AutoConstants {
 	String FIREFOX_PATH="E:\\JAVA\\GitHub\\PractiseFrameworkOne\\Drivers\\geckodriver.exe";
 	
 	String EDGE_KEY="webdriver.edge.driver";
-	String EDGE_PATH="E:\\JAVA\\GitHub\\PractiseFrameworkOne\\Drivers\\msedgedriver.exe";
+	String EDGE_PATH="C:\\Users\\Dell\\git\\Project2MavenBranch\\ecom\\Driver\\msedgedriver(1).exe";
 	
 	String IE_KEY="webdriver.ie.driver";
 	String IE_PATH="C:\\Users\\Dell\\git\\Project2MavenBranch\\ecom\\Driver\\IEDriverServer.exe";
