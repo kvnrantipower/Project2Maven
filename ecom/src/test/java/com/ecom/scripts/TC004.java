@@ -22,7 +22,7 @@ public class TC004 extends BaseTest {
 		pdp.addProductToCart(quantity, size, color);
 		//driver.navigate().to("http://automationpractice.com/index.php?controller=my-account");
 	}
-	@Test(description = "Verify Multiple Products Count Added to the cart",invocationCount=5)
+	@Test(description = "Verify Multiple Products Count Added to the cart")
 	public void multipleProductCount()
 	{
 		String menuName=ExcelLibrary.getCellData(EXCEL_PATH, "TC004", 1,0);
