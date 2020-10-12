@@ -15,6 +15,16 @@ public class HomePage extends BasePage {
 	@FindBy(partialLinkText="Sign out")
 	private WebElement signOut;
 	
+	@FindBy(linkText="Women")
+	private WebElement womenMenu;
+	
+	@FindBy(xpath="(//a[text()='Dresses'])[2]")
+	private WebElement dressesMenu;
+	
+	@FindBy(xpath="(//a[text()='T-shirts'])[2]")
+	private WebElement tshirtMenu;
+	
+	
 	public LoginPage logOut()
 	{
 		webaction.click(signOut);
@@ -24,6 +34,22 @@ public class HomePage extends BasePage {
 	public boolean verifyPresenseOfSignOut()
 	{
 		 return webaction.verifyElement(signOut);
+	}
+	
+	public CategoryPage selectMenu(String menuName)
+	{
+		menuName=menuName.toLowerCase();
+		
+		switch(menuName)
+		{
+			case "women":webaction.click(womenMenu);	
+							break;
+			case "dresses":webaction.click(dressesMenu);
+							break;
+			case "t-shirts":webaction.click(tshirtMenu);
+							break;
+		}
+		return new CategoryPage(driver,webaction);
 	}
 
 	

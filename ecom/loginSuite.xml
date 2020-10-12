@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="LoginTest">
+<suite name="LoginTest" parallel="tests">
  <test  name="Chrome">
   <parameter name="brow" value="chrome"></parameter>
     <classes>
       <class name="com.ecom.scripts.TC001"/>
       <class name="com.ecom.scripts.TC002"/>
     </classes>
-  </test> Test
+  </test> 
   <test  name="Firefox">
   <parameter name="brow" value="firefox"></parameter>
     <classes>

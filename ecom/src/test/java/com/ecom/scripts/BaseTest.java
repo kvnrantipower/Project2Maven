@@ -23,7 +23,7 @@ public class BaseTest implements AutoConstants {
 	public WebActionUtil webaction;
 	@Parameters({"brow","implicit","explicit"})
 	@BeforeClass(alwaysRun=true)
-	public  void setProperty(@Optional("chrome") String browser,@Optional(IT) String it,@Optional(ET) String et)
+	public  void setProperty(@Optional("firefox") String browser,@Optional(IT) String it,@Optional(ET) String et)
 	{
 		if(browser.equalsIgnoreCase("chrome"))
 		{
