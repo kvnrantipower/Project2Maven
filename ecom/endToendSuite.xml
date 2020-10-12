@@ -16,7 +16,7 @@
       <class name="com.ecom.scripts.TC004"/>
       <class name="com.ecom.scripts.TC005"/>
     </classes>
-  </test> 
+  </test>
   <test  name="MSEdge Test">
   <parameter name="brow" value="edge"></parameter>
     <classes>
