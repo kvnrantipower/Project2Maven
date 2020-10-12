@@ -19,7 +19,7 @@ public class TC002 extends BaseTest{
 	@DataProvider(name="credentials")
 	public Object[][] loginCredentials()
 	{
-		return ExcelLibrary.getAllData(EXCEL_PATH, "Sheet1");
+		return ExcelLibrary.getAllData(EXCEL_PATH, "TC002");
 	}
 	
 	@Test(dataProvider="credentials",description="Verifying invalid login")

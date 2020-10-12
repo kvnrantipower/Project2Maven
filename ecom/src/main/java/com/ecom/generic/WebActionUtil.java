@@ -47,6 +47,13 @@ public class WebActionUtil {
 			}
 		}
 		
+		public void jsClick(WebElement elem)
+		{
+			js.executeScript("arguments[0].click();", elem);
+		}
+		
+		
+		
 		//To verify Presense of Element
 		public boolean verifyElement(WebElement elem)
 		{
