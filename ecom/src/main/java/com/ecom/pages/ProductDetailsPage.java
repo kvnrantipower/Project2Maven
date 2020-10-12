@@ -28,7 +28,7 @@ public class ProductDetailsPage extends BasePage {
 	@FindBy(id="group_1")
 	private WebElement sizeListBox;
 	
-	@FindBy(xpath="//ul[@id='color_to_pick_list']//a")
+	@FindBy(xpath="//ul[@id='color_to_pick_list']/li/a")
 	private List<WebElement> colorListBox;
 	
 	@FindBy(id="add_to_cart")
@@ -74,6 +74,7 @@ public class ProductDetailsPage extends BasePage {
 			if(colorElem.getAttribute("name").equals(color))
 			{
 				webaction.click(colorElem);
+				break;
 			}
 		}
 	}
