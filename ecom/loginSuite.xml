@@ -22,7 +22,7 @@
       <class name="com.ecom.scripts.TC002"/>
     </classes>
   </test>
- <!--   <test  name="Ie">
+ <!-- <test  name="Ie">
   <parameter name="brow" value="ie"></parameter>
     <classes>
       <class name="com.ecom.scripts.TC001"/>

@@ -63,6 +63,7 @@ public class BaseTest implements AutoConstants {
 	@AfterMethod(alwaysRun=true)
 	public void aftMethod()
 	{
+		driver.navigate().to("http://automationpractice.com/index.php?controller=my-account");
 		HomePage hp=new HomePage(driver, webaction);
 		hp.logOut();
 	}
