@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="AddToKart" duration-ms="134864" started-at="2020-10-12T14:12:17 IST" finished-at="2020-10-12T14:14:32 IST">
+  <suite name="AddToKart" duration-ms="196069" started-at="2020-10-12T18:04:46 IST" finished-at="2020-10-12T18:08:02 IST">
     <groups>
     </groups>
-    <test name="Chrome Test" duration-ms="123778" started-at="2020-10-12T14:12:17 IST" finished-at="2020-10-12T14:14:21 IST">
+    <test name="Chrome Test" duration-ms="179875" started-at="2020-10-12T18:04:46 IST" finished-at="2020-10-12T18:07:45 IST">
       <class name="com.ecom.scripts.TC003">
-        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC003@56aac163]" name="setProperty" is-config="true" duration-ms="16427" started-at="2020-10-12T14:12:17 IST" finished-at="2020-10-12T14:12:33 IST">
+        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC003@1f7030a6]" name="setProperty" is-config="true" duration-ms="17433" started-at="2020-10-12T18:04:46 IST" finished-at="2020-10-12T18:05:03 IST">
           <params>
             <param index="0">
               <value>
@@ -28,25 +28,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProperty -->
-        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC003@56aac163]" name="befMethod" is-config="true" duration-ms="5843" started-at="2020-10-12T14:12:33 IST" finished-at="2020-10-12T14:12:39 IST">
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC003@1f7030a6]" name="befMethod" is-config="true" duration-ms="6764" started-at="2020-10-12T18:05:03 IST" finished-at="2020-10-12T18:05:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- befMethod -->
-        <test-method status="PASS" signature="addToCartMethod()[pri:0, instance:com.ecom.scripts.TC003@56aac163]" name="addToCartMethod" duration-ms="18979" started-at="2020-10-12T14:12:39 IST" description="Test case to add a product in the cart by selecting quantity,size,color" finished-at="2020-10-12T14:12:58 IST">
+        <test-method status="PASS" signature="addToCartMethod()[pri:0, instance:com.ecom.scripts.TC003@1f7030a6]" name="addToCartMethod" duration-ms="19637" started-at="2020-10-12T18:05:10 IST" description="Test case to add a product in the cart by selecting quantity,size,color" finished-at="2020-10-12T18:05:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartMethod -->
-        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC003@56aac163]" name="aftMethod" is-config="true" duration-ms="3178" started-at="2020-10-12T14:12:58 IST" finished-at="2020-10-12T14:13:01 IST">
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC003@1f7030a6]" name="aftMethod" is-config="true" duration-ms="3131" started-at="2020-10-12T18:05:29 IST" finished-at="2020-10-12T18:05:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftMethod -->
-        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC003@56aac163]" name="closeBrowsers" is-config="true" duration-ms="1356" started-at="2020-10-12T14:13:02 IST" finished-at="2020-10-12T14:13:03 IST">
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC003@1f7030a6]" name="closeBrowsers" is-config="true" duration-ms="1155" started-at="2020-10-12T18:05:33 IST" finished-at="2020-10-12T18:05:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
       </class> <!-- com.ecom.scripts.TC003 -->
-      <class name="com.ecom.scripts.TC004">
-        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC004@1f7030a6]" name="setProperty" is-config="true" duration-ms="18891" started-at="2020-10-12T14:13:03 IST" finished-at="2020-10-12T14:13:22 IST">
+      <class name="com.ecom.scripts.TC005">
+        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC005@396f6598]" name="setProperty" is-config="true" duration-ms="14243" started-at="2020-10-12T18:06:56 IST" finished-at="2020-10-12T18:07:10 IST">
           <params>
             <param index="0">
               <value>
@@ -67,27 +67,66 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProperty -->
-        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC004@1f7030a6]" name="befMethod" is-config="true" duration-ms="7177" started-at="2020-10-12T14:13:22 IST" finished-at="2020-10-12T14:13:29 IST">
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC005@396f6598]" name="befMethod" is-config="true" duration-ms="8464" started-at="2020-10-12T18:07:10 IST" finished-at="2020-10-12T18:07:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- befMethod -->
-        <test-method status="PASS" signature="multipleProductCount()[pri:0, instance:com.ecom.scripts.TC004@1f7030a6]" name="multipleProductCount" duration-ms="48063" started-at="2020-10-12T14:13:29 IST" description="Verify Multiple Products Count Added to the cart " finished-at="2020-10-12T14:14:17 IST">
+        <test-method status="PASS" signature="verifyingRightProductIsInTheKart()[pri:0, instance:com.ecom.scripts.TC005@396f6598]" name="verifyingRightProductIsInTheKart" duration-ms="20849" started-at="2020-10-12T18:07:19 IST" description="Verifying right product right quantity,right size and color added in the kart" finished-at="2020-10-12T18:07:40 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multipleProductCount -->
-        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC004@1f7030a6]" name="aftMethod" is-config="true" duration-ms="2955" started-at="2020-10-12T14:14:17 IST" finished-at="2020-10-12T14:14:20 IST">
+        </test-method> <!-- verifyingRightProductIsInTheKart -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC005@396f6598]" name="aftMethod" is-config="true" duration-ms="4074" started-at="2020-10-12T18:07:40 IST" finished-at="2020-10-12T18:07:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftMethod -->
-        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC004@1f7030a6]" name="closeBrowsers" is-config="true" duration-ms="751" started-at="2020-10-12T14:14:20 IST" finished-at="2020-10-12T14:14:21 IST">
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC005@396f6598]" name="closeBrowsers" is-config="true" duration-ms="1544" started-at="2020-10-12T18:07:44 IST" finished-at="2020-10-12T18:07:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- com.ecom.scripts.TC005 -->
+      <class name="com.ecom.scripts.TC004">
+        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC004@5a1c0542]" name="setProperty" is-config="true" duration-ms="16435" started-at="2020-10-12T18:05:34 IST" finished-at="2020-10-12T18:05:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC004@5a1c0542]" name="befMethod" is-config="true" duration-ms="6476" started-at="2020-10-12T18:05:50 IST" finished-at="2020-10-12T18:05:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="multipleProductCount()[pri:0, instance:com.ecom.scripts.TC004@5a1c0542]" name="multipleProductCount" duration-ms="54284" started-at="2020-10-12T18:05:57 IST" description="Verify Multiple Products Count Added to the cart " finished-at="2020-10-12T18:06:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleProductCount -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC004@5a1c0542]" name="aftMethod" is-config="true" duration-ms="4672" started-at="2020-10-12T18:06:51 IST" finished-at="2020-10-12T18:06:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC004@5a1c0542]" name="closeBrowsers" is-config="true" duration-ms="655" started-at="2020-10-12T18:06:56 IST" finished-at="2020-10-12T18:06:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
       </class> <!-- com.ecom.scripts.TC004 -->
     </test> <!-- Chrome Test -->
-    <test name="Firefox Test" duration-ms="130144" started-at="2020-10-12T14:12:17 IST" finished-at="2020-10-12T14:14:27 IST">
+    <test name="Firefox Test" duration-ms="183926" started-at="2020-10-12T18:04:46 IST" finished-at="2020-10-12T18:07:49 IST">
       <class name="com.ecom.scripts.TC003">
-        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC003@7a765367]" name="setProperty" is-config="true" duration-ms="19085" started-at="2020-10-12T14:12:17 IST" finished-at="2020-10-12T14:12:36 IST">
+        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC003@17d677df]" name="setProperty" is-config="true" duration-ms="19832" started-at="2020-10-12T18:04:46 IST" finished-at="2020-10-12T18:05:05 IST">
           <params>
             <param index="0">
               <value>
@@ -108,25 +147,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProperty -->
-        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC003@7a765367]" name="befMethod" is-config="true" duration-ms="7820" started-at="2020-10-12T14:12:36 IST" finished-at="2020-10-12T14:12:44 IST">
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC003@17d677df]" name="befMethod" is-config="true" duration-ms="6388" started-at="2020-10-12T18:05:05 IST" finished-at="2020-10-12T18:05:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- befMethod -->
-        <test-method status="PASS" signature="addToCartMethod()[pri:0, instance:com.ecom.scripts.TC003@7a765367]" name="addToCartMethod" duration-ms="14401" started-at="2020-10-12T14:12:44 IST" description="Test case to add a product in the cart by selecting quantity,size,color" finished-at="2020-10-12T14:12:58 IST">
+        <test-method status="PASS" signature="addToCartMethod()[pri:0, instance:com.ecom.scripts.TC003@17d677df]" name="addToCartMethod" duration-ms="16964" started-at="2020-10-12T18:05:12 IST" description="Test case to add a product in the cart by selecting quantity,size,color" finished-at="2020-10-12T18:05:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartMethod -->
-        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC003@7a765367]" name="aftMethod" is-config="true" duration-ms="3123" started-at="2020-10-12T14:12:58 IST" finished-at="2020-10-12T14:13:01 IST">
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC003@17d677df]" name="aftMethod" is-config="true" duration-ms="3568" started-at="2020-10-12T18:05:29 IST" finished-at="2020-10-12T18:05:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftMethod -->
-        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC003@7a765367]" name="closeBrowsers" is-config="true" duration-ms="9231" started-at="2020-10-12T14:13:02 IST" finished-at="2020-10-12T14:13:11 IST">
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC003@17d677df]" name="closeBrowsers" is-config="true" duration-ms="4570" started-at="2020-10-12T18:05:32 IST" finished-at="2020-10-12T18:05:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
       </class> <!-- com.ecom.scripts.TC003 -->
-      <class name="com.ecom.scripts.TC004">
-        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC004@76b0bfab]" name="setProperty" is-config="true" duration-ms="20110" started-at="2020-10-12T14:13:11 IST" finished-at="2020-10-12T14:13:31 IST">
+      <class name="com.ecom.scripts.TC005">
+        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC005@78e67e0a]" name="setProperty" is-config="true" duration-ms="18657" started-at="2020-10-12T18:06:55 IST" finished-at="2020-10-12T18:07:14 IST">
           <params>
             <param index="0">
               <value>
@@ -147,27 +186,66 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProperty -->
-        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC004@76b0bfab]" name="befMethod" is-config="true" duration-ms="9265" started-at="2020-10-12T14:13:31 IST" finished-at="2020-10-12T14:13:40 IST">
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC005@78e67e0a]" name="befMethod" is-config="true" duration-ms="11434" started-at="2020-10-12T18:07:14 IST" finished-at="2020-10-12T18:07:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- befMethod -->
-        <test-method status="PASS" signature="multipleProductCount()[pri:0, instance:com.ecom.scripts.TC004@76b0bfab]" name="multipleProductCount" duration-ms="42081" started-at="2020-10-12T14:13:40 IST" description="Verify Multiple Products Count Added to the cart " finished-at="2020-10-12T14:14:22 IST">
+        <test-method status="PASS" signature="verifyingRightProductIsInTheKart()[pri:0, instance:com.ecom.scripts.TC005@78e67e0a]" name="verifyingRightProductIsInTheKart" duration-ms="18969" started-at="2020-10-12T18:07:26 IST" description="Verifying right product right quantity,right size and color added in the kart" finished-at="2020-10-12T18:07:44 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multipleProductCount -->
-        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC004@76b0bfab]" name="aftMethod" is-config="true" duration-ms="3133" started-at="2020-10-12T14:14:22 IST" finished-at="2020-10-12T14:14:25 IST">
+        </test-method> <!-- verifyingRightProductIsInTheKart -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC005@78e67e0a]" name="aftMethod" is-config="true" duration-ms="2465" started-at="2020-10-12T18:07:44 IST" finished-at="2020-10-12T18:07:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftMethod -->
-        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC004@76b0bfab]" name="closeBrowsers" is-config="true" duration-ms="1742" started-at="2020-10-12T14:14:25 IST" finished-at="2020-10-12T14:14:27 IST">
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC005@78e67e0a]" name="closeBrowsers" is-config="true" duration-ms="2514" started-at="2020-10-12T18:07:47 IST" finished-at="2020-10-12T18:07:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- com.ecom.scripts.TC005 -->
+      <class name="com.ecom.scripts.TC004">
+        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC004@3043fe0e]" name="setProperty" is-config="true" duration-ms="18973" started-at="2020-10-12T18:05:37 IST" finished-at="2020-10-12T18:05:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC004@3043fe0e]" name="befMethod" is-config="true" duration-ms="7265" started-at="2020-10-12T18:05:56 IST" finished-at="2020-10-12T18:06:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="multipleProductCount()[pri:0, instance:com.ecom.scripts.TC004@3043fe0e]" name="multipleProductCount" duration-ms="45683" started-at="2020-10-12T18:06:03 IST" description="Verify Multiple Products Count Added to the cart " finished-at="2020-10-12T18:06:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleProductCount -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC004@3043fe0e]" name="aftMethod" is-config="true" duration-ms="4489" started-at="2020-10-12T18:06:49 IST" finished-at="2020-10-12T18:06:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC004@3043fe0e]" name="closeBrowsers" is-config="true" duration-ms="2110" started-at="2020-10-12T18:06:53 IST" finished-at="2020-10-12T18:06:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
       </class> <!-- com.ecom.scripts.TC004 -->
     </test> <!-- Firefox Test -->
-    <test name="MSEdge Test" duration-ms="134863" started-at="2020-10-12T14:12:17 IST" finished-at="2020-10-12T14:14:32 IST">
+    <test name="MSEdge Test" duration-ms="196069" started-at="2020-10-12T18:04:46 IST" finished-at="2020-10-12T18:08:02 IST">
       <class name="com.ecom.scripts.TC003">
-        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC003@4b553d26]" name="setProperty" is-config="true" duration-ms="21575" started-at="2020-10-12T14:12:17 IST" finished-at="2020-10-12T14:12:39 IST">
+        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC003@2a556333]" name="setProperty" is-config="true" duration-ms="23508" started-at="2020-10-12T18:04:46 IST" finished-at="2020-10-12T18:05:09 IST">
           <params>
             <param index="0">
               <value>
@@ -188,25 +266,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProperty -->
-        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC003@4b553d26]" name="befMethod" is-config="true" duration-ms="9548" started-at="2020-10-12T14:12:39 IST" finished-at="2020-10-12T14:12:48 IST">
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC003@2a556333]" name="befMethod" is-config="true" duration-ms="13330" started-at="2020-10-12T18:05:09 IST" finished-at="2020-10-12T18:05:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- befMethod -->
-        <test-method status="PASS" signature="addToCartMethod()[pri:0, instance:com.ecom.scripts.TC003@4b553d26]" name="addToCartMethod" duration-ms="15134" started-at="2020-10-12T14:12:48 IST" description="Test case to add a product in the cart by selecting quantity,size,color" finished-at="2020-10-12T14:13:03 IST">
+        <test-method status="PASS" signature="addToCartMethod()[pri:0, instance:com.ecom.scripts.TC003@2a556333]" name="addToCartMethod" duration-ms="14101" started-at="2020-10-12T18:05:22 IST" description="Test case to add a product in the cart by selecting quantity,size,color" finished-at="2020-10-12T18:05:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartMethod -->
-        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC003@4b553d26]" name="aftMethod" is-config="true" duration-ms="2074" started-at="2020-10-12T14:13:03 IST" finished-at="2020-10-12T14:13:05 IST">
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC003@2a556333]" name="aftMethod" is-config="true" duration-ms="2496" started-at="2020-10-12T18:05:36 IST" finished-at="2020-10-12T18:05:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftMethod -->
-        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC003@4b553d26]" name="closeBrowsers" is-config="true" duration-ms="1256" started-at="2020-10-12T14:13:05 IST" finished-at="2020-10-12T14:13:07 IST">
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC003@2a556333]" name="closeBrowsers" is-config="true" duration-ms="800" started-at="2020-10-12T18:05:39 IST" finished-at="2020-10-12T18:05:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
       </class> <!-- com.ecom.scripts.TC003 -->
-      <class name="com.ecom.scripts.TC004">
-        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC004@69a3d1d]" name="setProperty" is-config="true" duration-ms="23128" started-at="2020-10-12T14:13:07 IST" finished-at="2020-10-12T14:13:30 IST">
+      <class name="com.ecom.scripts.TC005">
+        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC005@2a742aa2]" name="setProperty" is-config="true" duration-ms="20803" started-at="2020-10-12T18:07:11 IST" finished-at="2020-10-12T18:07:32 IST">
           <params>
             <param index="0">
               <value>
@@ -227,19 +305,58 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProperty -->
-        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC004@69a3d1d]" name="befMethod" is-config="true" duration-ms="9577" started-at="2020-10-12T14:13:30 IST" finished-at="2020-10-12T14:13:39 IST">
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC005@2a742aa2]" name="befMethod" is-config="true" duration-ms="10952" started-at="2020-10-12T18:07:32 IST" finished-at="2020-10-12T18:07:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- befMethod -->
-        <test-method status="PASS" signature="multipleProductCount()[pri:0, instance:com.ecom.scripts.TC004@69a3d1d]" name="multipleProductCount" duration-ms="49658" started-at="2020-10-12T14:13:39 IST" description="Verify Multiple Products Count Added to the cart " finished-at="2020-10-12T14:14:29 IST">
+        <test-method status="PASS" signature="verifyingRightProductIsInTheKart()[pri:0, instance:com.ecom.scripts.TC005@2a742aa2]" name="verifyingRightProductIsInTheKart" duration-ms="13899" started-at="2020-10-12T18:07:43 IST" description="Verifying right product right quantity,right size and color added in the kart" finished-at="2020-10-12T18:07:57 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multipleProductCount -->
-        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC004@69a3d1d]" name="aftMethod" is-config="true" duration-ms="2180" started-at="2020-10-12T14:14:29 IST" finished-at="2020-10-12T14:14:31 IST">
+        </test-method> <!-- verifyingRightProductIsInTheKart -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC005@2a742aa2]" name="aftMethod" is-config="true" duration-ms="4077" started-at="2020-10-12T18:07:57 IST" finished-at="2020-10-12T18:08:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftMethod -->
-        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC004@69a3d1d]" name="closeBrowsers" is-config="true" duration-ms="695" started-at="2020-10-12T14:14:31 IST" finished-at="2020-10-12T14:14:32 IST">
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC005@2a742aa2]" name="closeBrowsers" is-config="true" duration-ms="662" started-at="2020-10-12T18:08:01 IST" finished-at="2020-10-12T18:08:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- com.ecom.scripts.TC005 -->
+      <class name="com.ecom.scripts.TC004">
+        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC004@7d70d1b1]" name="setProperty" is-config="true" duration-ms="23081" started-at="2020-10-12T18:05:40 IST" finished-at="2020-10-12T18:06:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC004@7d70d1b1]" name="befMethod" is-config="true" duration-ms="11467" started-at="2020-10-12T18:06:03 IST" finished-at="2020-10-12T18:06:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="multipleProductCount()[pri:0, instance:com.ecom.scripts.TC004@7d70d1b1]" name="multipleProductCount" duration-ms="52017" started-at="2020-10-12T18:06:14 IST" description="Verify Multiple Products Count Added to the cart " finished-at="2020-10-12T18:07:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleProductCount -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC004@7d70d1b1]" name="aftMethod" is-config="true" duration-ms="3838" started-at="2020-10-12T18:07:06 IST" finished-at="2020-10-12T18:07:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC004@7d70d1b1]" name="closeBrowsers" is-config="true" duration-ms="1003" started-at="2020-10-12T18:07:10 IST" finished-at="2020-10-12T18:07:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
