@@ -23,7 +23,7 @@
 	        <configuration>
 	          <suiteXmlFiles>
 	            <suiteXmlFile>loginSuite.xml</suiteXmlFile>
-	            <suiteXmlFile>endToendSuite.xml</suiteXmlFile>
+	            <!-- <suiteXmlFile>endToendSuite.xml</suiteXmlFile> -->
 	          </suiteXmlFiles>
 	        </configuration>
      	</plugin>

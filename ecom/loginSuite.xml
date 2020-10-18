@@ -8,7 +8,7 @@
       <class name="com.ecom.scripts.TC002"/>
     </classes>
   </test> 
-  <test  name="Firefox">
+ <!--  <test  name="Firefox">
   <parameter name="brow" value="firefox"></parameter>
     <classes>
       <class name="com.ecom.scripts.TC001"/>
@@ -21,7 +21,7 @@
       <class name="com.ecom.scripts.TC001"/>
       <class name="com.ecom.scripts.TC002"/>
     </classes>
-  </test>
+  </test> -->
  <!-- <test  name="Ie">
   <parameter name="brow" value="ie"></parameter>
     <classes>
