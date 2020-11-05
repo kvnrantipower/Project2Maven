@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="AddToKart" parallel="tests">
+<suite name="AddToKart">
  <test name="Chrome Test">
   <parameter name="brow" value="chrome"></parameter>
     <classes>
