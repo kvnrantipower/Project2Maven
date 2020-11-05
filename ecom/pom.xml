@@ -22,7 +22,7 @@
 	        <version>3.0.0-M5</version>
 	        <configuration>
 	          <suiteXmlFiles>
-	            <!-- <suiteXmlFile>loginSuite.xml</suiteXmlFile> -->
+	            <suiteXmlFile>loginSuite.xml</suiteXmlFile>
 	           <suiteXmlFile>endToendSuite.xml</suiteXmlFile>
 	          </suiteXmlFiles>
 	        </configuration>

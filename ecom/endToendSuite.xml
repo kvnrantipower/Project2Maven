@@ -4,27 +4,27 @@
  <test name="Chrome Test">
   <parameter name="brow" value="chrome"></parameter>
     <classes>
-     <!-- <class name="com.ecom.scripts.TC003"/>
+     <class name="com.ecom.scripts.TC003"/>
       <class name="com.ecom.scripts.TC004"/>
-      <class name="com.ecom.scripts.TC005"/> -->
+      <class name="com.ecom.scripts.TC005"/> 
       <class name="com.ecom.scripts.TC006"/>
     </classes>
   </test> 
 <test  name="Firefox Test">
   <parameter name="brow" value="firefox"></parameter>
     <classes>
-     <!-- <class name="com.ecom.scripts.TC003"/>
+     <class name="com.ecom.scripts.TC003"/>
       <class name="com.ecom.scripts.TC004"/>
-      <class name="com.ecom.scripts.TC005"/> -->
+      <class name="com.ecom.scripts.TC005"/>
       <class name="com.ecom.scripts.TC006"/>
     </classes>
   </test>
   <test  name="MSEdge Test">
   <parameter name="brow" value="edge"></parameter>
     <classes>
-      <!-- <class name="com.ecom.scripts.TC003"/>
+      <class name="com.ecom.scripts.TC003"/>
       <class name="com.ecom.scripts.TC004"/>
-      <class name="com.ecom.scripts.TC005"/> -->
+      <class name="com.ecom.scripts.TC005"/>
       <class name="com.ecom.scripts.TC006"/>
     </classes>
   </test>
