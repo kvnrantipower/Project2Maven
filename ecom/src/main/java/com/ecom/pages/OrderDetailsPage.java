@@ -25,6 +25,15 @@ public class OrderDetailsPage extends BasePage {
 	@FindBy(xpath="//table[@id='cart_summary']/tbody/tr/td[@class='cart_description']/small/a")
 	private List<WebElement> propertyList;
 	
+	@FindBy(xpath="//span[@id='total_price']")
+	private WebElement totalPrice;
+	
+	@FindBy(xpath="//td[@class='cart_unit']//span/span[@class='price' or @class='price special-price']")
+	private List<WebElement> unitPriceList;
+	
+	@FindBy(xpath="//td[@class='cart_quantity text-center']/input[@type='text']")
+	private List<WebElement> quantittyList;
+	
 	public boolean verifyProductAddedToCart(String productId)
 	{
 		productId="product_"+productId;
@@ -58,6 +67,29 @@ public class OrderDetailsPage extends BasePage {
 	{
 		xpathForQuantity=xpathForQuantity.replace("pid", productId);
 		return driver.findElement(By.xpath(xpathForQuantity)).getAttribute("value");
+	}
+	
+	public boolean verifyTotalPrice()
+	{
+		double total=2;
+		
+		for(int i=0;i<unitPriceList.size();i++)
+		{
+				String price = unitPriceList.get(i).getText().substring(1);
+				double priceInt = Double.parseDouble(price);
+				int quantInt= Integer.parseInt(quantittyList.get(i).getAttribute("value"));
+				total = total + (priceInt*quantInt);
+				
+		}
+		
+		double totalPriceDouble= Double.parseDouble(totalPrice.getText().substring(1));
+		System.out.println("totalPrice: "+totalPrice);
+		if(total==totalPriceDouble)
+		{
+			return true;
+		}
+		else
+			return false;
 	}
 }
 

@@ -2,6 +2,8 @@ package com.ecom.pages;
 
 import java.util.List;
 
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -71,11 +73,15 @@ public class ProductDetailsPage extends BasePage {
 	{
 		for(WebElement colorElem:colorListBox)
 		{
-			if(colorElem.getAttribute("name").equals(color))
-			{
+			try {
+				if(colorElem.getAttribute("name").equals(color))
+				{
 				webaction.click(colorElem);
 				break;
-			}
+				}
+			}catch(StaleElementReferenceException e){}
+			catch(NoSuchElementException e) {}
+			
 		}
 	}
 	
