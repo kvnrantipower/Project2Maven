@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="24" passed="24">
   <reporter-output>
   </reporter-output>
-  <suite name="AddToKart" duration-ms="131513" started-at="2020-11-05T11:58:39 IST" finished-at="2020-11-05T12:00:51 IST">
+  <suite name="Suite" duration-ms="134326" started-at="2020-12-07T14:03:55 IST" finished-at="2020-12-07T14:06:09 IST">
     <groups>
     </groups>
-    <test name="Chrome Test" duration-ms="110211" started-at="2020-11-05T11:58:39 IST" finished-at="2020-11-05T12:00:30 IST">
-      <class name="com.ecom.scripts.TC006">
-        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC006@184f6be2]" name="setProperty" is-config="true" duration-ms="26723" started-at="2020-11-05T11:58:40 IST" finished-at="2020-11-05T11:59:06 IST">
+    <test name="ChromeTest" duration-ms="44351" started-at="2020-12-07T14:03:55 IST" finished-at="2020-12-07T14:04:39 IST">
+      <class name="com.ecom.scripts.TC007">
+        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="setProperty" is-config="true" duration-ms="17539" started-at="2020-12-07T14:03:55 IST" finished-at="2020-12-07T14:04:13 IST">
           <params>
             <param index="0">
               <value>
@@ -28,27 +28,160 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProperty -->
-        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC006@184f6be2]" name="befMethod" is-config="true" duration-ms="20910" started-at="2020-11-05T11:59:06 IST" finished-at="2020-11-05T11:59:27 IST">
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="befMethod" is-config="true" duration-ms="1" started-at="2020-12-07T14:04:13 IST" finished-at="2020-12-07T14:04:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- befMethod -->
-        <test-method status="PASS" signature="verifyTotalPrice()[pri:0, instance:com.ecom.scripts.TC006@184f6be2]" name="verifyTotalPrice" duration-ms="53543" started-at="2020-11-05T11:59:27 IST" description="To Verify total Price" finished-at="2020-11-05T12:00:21 IST">
+        <test-method status="PASS" signature="ftOnRegEmail()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="ftOnRegEmail" duration-ms="3139" started-at="2020-12-07T14:04:13 IST" description="Functional tests on registration email text field" finished-at="2020-12-07T14:04:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTotalPrice -->
-        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC006@184f6be2]" name="aftMethod" is-config="true" duration-ms="6884" started-at="2020-11-05T12:00:21 IST" finished-at="2020-11-05T12:00:28 IST">
+        </test-method> <!-- ftOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="aftMethod" is-config="true" duration-ms="1450" started-at="2020-12-07T14:04:16 IST" finished-at="2020-12-07T14:04:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftMethod -->
-        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC006@184f6be2]" name="closeBrowsers" is-config="true" duration-ms="2096" started-at="2020-11-05T12:00:28 IST" finished-at="2020-11-05T12:00:30 IST">
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="befMethod" is-config="true" duration-ms="1" started-at="2020-12-07T14:04:18 IST" finished-at="2020-12-07T14:04:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="negativeFtOnRegEmail" duration-ms="3040" started-at="2020-12-07T14:04:18 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:04:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mermidengmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="aftMethod" is-config="true" duration-ms="1232" started-at="2020-12-07T14:04:21 IST" finished-at="2020-12-07T14:04:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="negativeFtOnRegEmail" duration-ms="1494" started-at="2020-12-07T14:04:22 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:04:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mermiden@gmailcom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="befMethod" is-config="true" duration-ms="0" started-at="2020-12-07T14:04:22 IST" finished-at="2020-12-07T14:04:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="aftMethod" is-config="true" duration-ms="1156" started-at="2020-12-07T14:04:23 IST" finished-at="2020-12-07T14:04:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="befMethod" is-config="true" duration-ms="1" started-at="2020-12-07T14:04:25 IST" finished-at="2020-12-07T14:04:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="negativeFtOnRegEmail" duration-ms="1546" started-at="2020-12-07T14:04:25 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:04:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[                   ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="aftMethod" is-config="true" duration-ms="1226" started-at="2020-12-07T14:04:26 IST" finished-at="2020-12-07T14:04:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="negativeFtOnRegEmail" duration-ms="1492" started-at="2020-12-07T14:04:27 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:04:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="befMethod" is-config="true" duration-ms="0" started-at="2020-12-07T14:04:27 IST" finished-at="2020-12-07T14:04:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="aftMethod" is-config="true" duration-ms="1118" started-at="2020-12-07T14:04:29 IST" finished-at="2020-12-07T14:04:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="befMethod" is-config="true" duration-ms="3" started-at="2020-12-07T14:04:30 IST" finished-at="2020-12-07T14:04:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="negativeFtOnRegEmail" duration-ms="1500" started-at="2020-12-07T14:04:30 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:04:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asddfgghl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="aftMethod" is-config="true" duration-ms="1413" started-at="2020-12-07T14:04:31 IST" finished-at="2020-12-07T14:04:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="befMethod" is-config="true" duration-ms="1" started-at="2020-12-07T14:04:33 IST" finished-at="2020-12-07T14:04:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="negativeFtOnRegEmail" duration-ms="1489" started-at="2020-12-07T14:04:33 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:04:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="aftMethod" is-config="true" duration-ms="1785" started-at="2020-12-07T14:04:34 IST" finished-at="2020-12-07T14:04:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="negativeFtOnRegEmail" duration-ms="1465" started-at="2020-12-07T14:04:36 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:04:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mermiden#gmail com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="befMethod" is-config="true" duration-ms="0" started-at="2020-12-07T14:04:36 IST" finished-at="2020-12-07T14:04:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="aftMethod" is-config="true" duration-ms="1130" started-at="2020-12-07T14:04:38 IST" finished-at="2020-12-07T14:04:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC007@5f282abb]" name="closeBrowsers" is-config="true" duration-ms="672" started-at="2020-12-07T14:04:39 IST" finished-at="2020-12-07T14:04:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
-      </class> <!-- com.ecom.scripts.TC006 -->
-    </test> <!-- Chrome Test -->
-    <test name="Firefox Test" duration-ms="109698" started-at="2020-11-05T11:58:39 IST" finished-at="2020-11-05T12:00:29 IST">
-      <class name="com.ecom.scripts.TC006">
-        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC006@34c4973]" name="setProperty" is-config="true" duration-ms="28160" started-at="2020-11-05T11:58:40 IST" finished-at="2020-11-05T11:59:08 IST">
+      </class> <!-- com.ecom.scripts.TC007 -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="40675" started-at="2020-12-07T14:04:39 IST" finished-at="2020-12-07T14:05:20 IST">
+      <class name="com.ecom.scripts.TC007">
+        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="setProperty" is-config="true" duration-ms="15940" started-at="2020-12-07T14:04:39 IST" finished-at="2020-12-07T14:04:55 IST">
           <params>
             <param index="0">
               <value>
@@ -69,27 +202,160 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProperty -->
-        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC006@34c4973]" name="befMethod" is-config="true" duration-ms="16969" started-at="2020-11-05T11:59:08 IST" finished-at="2020-11-05T11:59:25 IST">
+        <test-method status="PASS" signature="ftOnRegEmail()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="ftOnRegEmail" duration-ms="722" started-at="2020-12-07T14:04:55 IST" description="Functional tests on registration email text field" finished-at="2020-12-07T14:04:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ftOnRegEmail -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="befMethod" is-config="true" duration-ms="0" started-at="2020-12-07T14:04:55 IST" finished-at="2020-12-07T14:04:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- befMethod -->
-        <test-method status="PASS" signature="verifyTotalPrice()[pri:0, instance:com.ecom.scripts.TC006@34c4973]" name="verifyTotalPrice" duration-ms="48303" started-at="2020-11-05T11:59:25 IST" description="To Verify total Price" finished-at="2020-11-05T12:00:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTotalPrice -->
-        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC006@34c4973]" name="aftMethod" is-config="true" duration-ms="6084" started-at="2020-11-05T12:00:13 IST" finished-at="2020-11-05T12:00:19 IST">
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="aftMethod" is-config="true" duration-ms="2108" started-at="2020-12-07T14:04:56 IST" finished-at="2020-12-07T14:04:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftMethod -->
-        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC006@34c4973]" name="closeBrowsers" is-config="true" duration-ms="10110" started-at="2020-11-05T12:00:19 IST" finished-at="2020-11-05T12:00:29 IST">
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="befMethod" is-config="true" duration-ms="0" started-at="2020-12-07T14:04:58 IST" finished-at="2020-12-07T14:04:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="negativeFtOnRegEmail" duration-ms="1043" started-at="2020-12-07T14:04:58 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:04:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mermidengmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="aftMethod" is-config="true" duration-ms="1202" started-at="2020-12-07T14:04:59 IST" finished-at="2020-12-07T14:05:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="negativeFtOnRegEmail" duration-ms="1111" started-at="2020-12-07T14:05:01 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:05:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mermiden@gmailcom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="befMethod" is-config="true" duration-ms="0" started-at="2020-12-07T14:05:01 IST" finished-at="2020-12-07T14:05:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="aftMethod" is-config="true" duration-ms="1451" started-at="2020-12-07T14:05:02 IST" finished-at="2020-12-07T14:05:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="befMethod" is-config="true" duration-ms="1" started-at="2020-12-07T14:05:03 IST" finished-at="2020-12-07T14:05:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="negativeFtOnRegEmail" duration-ms="1713" started-at="2020-12-07T14:05:03 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:05:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[                   ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="aftMethod" is-config="true" duration-ms="1630" started-at="2020-12-07T14:05:05 IST" finished-at="2020-12-07T14:05:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="befMethod" is-config="true" duration-ms="1" started-at="2020-12-07T14:05:06 IST" finished-at="2020-12-07T14:05:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="negativeFtOnRegEmail" duration-ms="1600" started-at="2020-12-07T14:05:06 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:05:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="aftMethod" is-config="true" duration-ms="1394" started-at="2020-12-07T14:05:08 IST" finished-at="2020-12-07T14:05:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="befMethod" is-config="true" duration-ms="1" started-at="2020-12-07T14:05:09 IST" finished-at="2020-12-07T14:05:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="negativeFtOnRegEmail" duration-ms="1645" started-at="2020-12-07T14:05:09 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:05:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asddfgghl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="aftMethod" is-config="true" duration-ms="1460" started-at="2020-12-07T14:05:11 IST" finished-at="2020-12-07T14:05:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="befMethod" is-config="true" duration-ms="1" started-at="2020-12-07T14:05:13 IST" finished-at="2020-12-07T14:05:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="negativeFtOnRegEmail" duration-ms="1161" started-at="2020-12-07T14:05:13 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:05:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="aftMethod" is-config="true" duration-ms="1580" started-at="2020-12-07T14:05:14 IST" finished-at="2020-12-07T14:05:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="befMethod" is-config="true" duration-ms="2" started-at="2020-12-07T14:05:15 IST" finished-at="2020-12-07T14:05:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="negativeFtOnRegEmail" duration-ms="1089" started-at="2020-12-07T14:05:15 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:05:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mermiden#gmail com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="aftMethod" is-config="true" duration-ms="1797" started-at="2020-12-07T14:05:16 IST" finished-at="2020-12-07T14:05:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC007@2f943d71]" name="closeBrowsers" is-config="true" duration-ms="1908" started-at="2020-12-07T14:05:18 IST" finished-at="2020-12-07T14:05:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
-      </class> <!-- com.ecom.scripts.TC006 -->
-    </test> <!-- Firefox Test -->
-    <test name="MSEdge Test" duration-ms="131513" started-at="2020-11-05T11:58:39 IST" finished-at="2020-11-05T12:00:51 IST">
-      <class name="com.ecom.scripts.TC006">
-        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC006@bd8db5a]" name="setProperty" is-config="true" duration-ms="65287" started-at="2020-11-05T11:58:40 IST" finished-at="2020-11-05T11:59:45 IST">
+      </class> <!-- com.ecom.scripts.TC007 -->
+    </test> <!-- FirefoxTest -->
+    <test name="EdgeTest" duration-ms="49231" started-at="2020-12-07T14:05:20 IST" finished-at="2020-12-07T14:06:09 IST">
+      <class name="com.ecom.scripts.TC007">
+        <test-method status="PASS" signature="setProperty(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="setProperty" is-config="true" duration-ms="21484" started-at="2020-12-07T14:05:20 IST" finished-at="2020-12-07T14:05:42 IST">
           <params>
             <param index="0">
               <value>
@@ -110,23 +376,156 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProperty -->
-        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC006@bd8db5a]" name="befMethod" is-config="true" duration-ms="43671" started-at="2020-11-05T11:59:45 IST" finished-at="2020-11-05T12:00:28 IST">
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="befMethod" is-config="true" duration-ms="1" started-at="2020-12-07T14:05:42 IST" finished-at="2020-12-07T14:05:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- befMethod -->
-        <test-method status="PASS" signature="verifyTotalPrice()[pri:0, instance:com.ecom.scripts.TC006@bd8db5a]" name="verifyTotalPrice" duration-ms="16134" started-at="2020-11-05T12:00:28 IST" description="To Verify total Price" finished-at="2020-11-05T12:00:45 IST">
+        <test-method status="PASS" signature="ftOnRegEmail()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="ftOnRegEmail" duration-ms="720" started-at="2020-12-07T14:05:42 IST" description="Functional tests on registration email text field" finished-at="2020-12-07T14:05:42 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTotalPrice -->
-        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC006@bd8db5a]" name="aftMethod" is-config="true" duration-ms="5563" started-at="2020-11-05T12:00:45 IST" finished-at="2020-11-05T12:00:50 IST">
+        </test-method> <!-- ftOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="aftMethod" is-config="true" duration-ms="1496" started-at="2020-12-07T14:05:42 IST" finished-at="2020-12-07T14:05:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftMethod -->
-        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC006@bd8db5a]" name="closeBrowsers" is-config="true" duration-ms="822" started-at="2020-11-05T12:00:50 IST" finished-at="2020-11-05T12:00:51 IST">
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="befMethod" is-config="true" duration-ms="2" started-at="2020-12-07T14:05:44 IST" finished-at="2020-12-07T14:05:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="negativeFtOnRegEmail" duration-ms="2547" started-at="2020-12-07T14:05:44 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:05:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mermidengmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="aftMethod" is-config="true" duration-ms="1540" started-at="2020-12-07T14:05:47 IST" finished-at="2020-12-07T14:05:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="befMethod" is-config="true" duration-ms="1" started-at="2020-12-07T14:05:48 IST" finished-at="2020-12-07T14:05:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="negativeFtOnRegEmail" duration-ms="1915" started-at="2020-12-07T14:05:48 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:05:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mermiden@gmailcom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="aftMethod" is-config="true" duration-ms="1456" started-at="2020-12-07T14:05:50 IST" finished-at="2020-12-07T14:05:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="befMethod" is-config="true" duration-ms="1" started-at="2020-12-07T14:05:52 IST" finished-at="2020-12-07T14:05:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="negativeFtOnRegEmail" duration-ms="1377" started-at="2020-12-07T14:05:52 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:05:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[                   ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="aftMethod" is-config="true" duration-ms="1728" started-at="2020-12-07T14:05:53 IST" finished-at="2020-12-07T14:05:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="befMethod" is-config="true" duration-ms="0" started-at="2020-12-07T14:05:55 IST" finished-at="2020-12-07T14:05:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="negativeFtOnRegEmail" duration-ms="1421" started-at="2020-12-07T14:05:55 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:05:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="aftMethod" is-config="true" duration-ms="1369" started-at="2020-12-07T14:05:56 IST" finished-at="2020-12-07T14:05:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="befMethod" is-config="true" duration-ms="1" started-at="2020-12-07T14:05:58 IST" finished-at="2020-12-07T14:05:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="negativeFtOnRegEmail" duration-ms="2015" started-at="2020-12-07T14:05:58 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:06:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asddfgghl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="aftMethod" is-config="true" duration-ms="1502" started-at="2020-12-07T14:06:00 IST" finished-at="2020-12-07T14:06:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="negativeFtOnRegEmail" duration-ms="1969" started-at="2020-12-07T14:06:01 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:06:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="befMethod" is-config="true" duration-ms="0" started-at="2020-12-07T14:06:01 IST" finished-at="2020-12-07T14:06:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="aftMethod" is-config="true" duration-ms="1874" started-at="2020-12-07T14:06:03 IST" finished-at="2020-12-07T14:06:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="befMethod" is-config="true" duration-ms="1" started-at="2020-12-07T14:06:05 IST" finished-at="2020-12-07T14:06:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="negativeFtOnRegEmail(java.lang.String)[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="negativeFtOnRegEmail" duration-ms="2051" started-at="2020-12-07T14:06:05 IST" description="Negative Functional tests on registration email text field" data-provider="negativeInputs" finished-at="2020-12-07T14:06:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mermiden#gmail com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeFtOnRegEmail -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="aftMethod" is-config="true" duration-ms="1728" started-at="2020-12-07T14:06:07 IST" finished-at="2020-12-07T14:06:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.ecom.scripts.TC007@7d70d1b1]" name="closeBrowsers" is-config="true" duration-ms="729" started-at="2020-12-07T14:06:09 IST" finished-at="2020-12-07T14:06:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowsers -->
-      </class> <!-- com.ecom.scripts.TC006 -->
-    </test> <!-- MSEdge Test -->
-  </suite> <!-- AddToKart -->
+      </class> <!-- com.ecom.scripts.TC007 -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
 </testng-results>

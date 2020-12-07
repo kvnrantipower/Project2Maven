@@ -31,6 +31,15 @@ public class LoginPage extends BasePage {
 	@FindBy(linkText="Forgot your password?")
 	private WebElement forgotPassword;
 	
+	@FindBy(id="email_create")
+	WebElement eMailReg;
+	
+	@FindBy(id="SubmitCreate")
+	WebElement createAnAccount;
+	
+	@FindBy(id="create_account_error")
+	WebElement createAccountError;
+	
 	//Methods
 	public HomePage login(String user,String pwd)
 	{
@@ -41,9 +50,31 @@ public class LoginPage extends BasePage {
 		return new HomePage(driver, webaction);
 	}
 	
+	public void enterRegMail(String email)
+	{
+		webaction.sendKeys(eMailReg, email); 
+	}
+	
+	
 	public boolean verifyErrorMsg()
 	{
 		return webaction.verifyElement(errorMessage);
+	}
+	
+	public RegistrationPage clickCreateAnAccount()
+	{
+		webaction.click(createAnAccount);
+		return new RegistrationPage(driver, webaction);
+	}
+	
+	public boolean verifyCreateAccountErrorDisplayed()
+	{
+		return webaction.verifyElement(createAccountError);
+	}
+	
+	public boolean verifyCreateAccountErrorNotDisplayed()
+	{
+		return webaction.verifyNoElement(createAccountError);
 	}
 	
 }

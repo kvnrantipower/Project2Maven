@@ -45,5 +45,46 @@ public class ExcelLibrary {
 		{e.printStackTrace();}
 		return obj;
 	}
+	public static Object[] getAllSingleColoumnData(String excelFilePath,String sheetName,int startingRow)
+	{
+		
+		try {
+			FileInputStream path=new FileInputStream(excelFilePath);
+			Workbook wb=WorkbookFactory.create(path);
+			Sheet sh=wb.getSheet(sheetName);
+			Object[] obj=new Object[sh.getPhysicalNumberOfRows()-startingRow];
+			for(int i=0,j=startingRow;j<sh.getPhysicalNumberOfRows();i++,j++)
+			{
+				obj[i]=sh.getRow(j).getCell(0).toString();
+				
+			}
+			
+			return obj;
+		}catch(Exception e) {
+			
+			e.printStackTrace();
+			return null;
+		}
+		
+	}
+	public static Object[] getAllSingleRowData(String excelFilePath,String sheetName,int startingCell)
+	{
+		
+		try {
+		FileInputStream fis = new FileInputStream(excelFilePath); 
+		Sheet sh=WorkbookFactory.create(fis).getSheet(sheetName);
+		Object[] obj=new Object[sh.getRow(1).getPhysicalNumberOfCells()-startingCell];
+		for(int i=0,j=startingCell;i<sh.getRow(0).getPhysicalNumberOfCells();i++)
+		{
+			obj[i]=sh.getRow(0).getCell(j).toString();
+			
+		}
+		return obj;
+		}catch(Exception e){
+			e.printStackTrace();
+			return null;
+		}
+		
+	}
 
 }
