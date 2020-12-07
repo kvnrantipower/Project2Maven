@@ -50,7 +50,7 @@ public class BaseTest implements AutoConstants {
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(Long.parseLong(it), TimeUnit.SECONDS);
 		driver.get(DEFAULT_URL);
-		driver.findElement(By.partialLinkText("Sign in"));
+		driver.findElement(By.partialLinkText("Sign in")).click();;
 	}
 	
 	@BeforeMethod(alwaysRun=true)
